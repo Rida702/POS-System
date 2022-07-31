@@ -1,0 +1,16 @@
+{% extends "user/base.html" %}
+{% block content %}
+<style>
+    .oggy{
+        margin: 0 auto
+    }
+    </style
+    <h2>You Have Been Logged Out!</h2>
+        <div class="border-top pt-3">
+        <div class="form-group w-25 oggy">
+            <small class="text-muted">
+                <a href="{% url 'user-signin' %}">Log In Again!  </a>
+            </small>
+    </div>
+{% endblock content %}
+>
