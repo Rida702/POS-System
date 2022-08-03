@@ -1,1 +1,1 @@
-web:gunicorn Blog application.wsgi --log-file -
+web:gunicorn POS System.wsgi --log-file -
