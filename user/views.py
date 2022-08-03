@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 
-from POS_1.settings import LOGIN_REDIRECT_URL
+from POS_System.settings import LOGIN_REDIRECT_URL
 from .forms import UserRegisterForm
 from django.contrib import messages
 from django.views.generic import TemplateView 
