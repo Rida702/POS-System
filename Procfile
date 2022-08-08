@@ -1,1 +1,1 @@
-web: python POS_System.py runserver 0.0.0.0:$PORT
+web:gunicorn POS_System.wsgi --log-file -
