@@ -1,1 +1,1 @@
-web:gunicorn POS_System.wsgi --log-file -
+web: gunicorn POS_System.wsgi --log-file -
